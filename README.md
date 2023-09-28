@@ -8,7 +8,7 @@ O PowerShell é amplamente utilizado para automatizar *tarefas repetitivas*, com
 
 O **PowerShell** é uma solução de automação de tarefas multiplataforma que consiste em um shell de linha de comando, em uma linguagem de script e uma estrutura de gerenciamento de configuração ³. Ele pode ser executado no Windows, Linux e macOS ³. O PowerShell é amplamente utilizado para automatizar tarefas repetitivas, como gerenciamento de sistemas, administração de servidores, gerenciamento de configurações e implantação de aplicativos ³. Ele também pode ser usado para criar scripts personalizados que podem ser usados para automatizar tarefas específicas ³. Existem muitas maneiras diferentes de instalar o PowerShell no Windows, incluindo o uso do Winget, que é a maneira recomendada ². Para obter mais informações sobre como instalar o PowerShell no Windows, confira este artigo ¹.
 
-##8 funcionalidades do PowerShell:
+## 8 funcionalidades do PowerShell:
 
 **Gerenciamento de processos**: O comando `Get-Process` retorna informações sobre os processos em execução no sistema.
 
