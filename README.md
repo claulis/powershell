@@ -66,7 +66,71 @@ Para programar em PowerShell no Visual Studio Code (VS Code), considerando que v
 
 ## Programando em Powershell
 
-### Variáveis
+### Principais comandos (aula1.ps1)
+
+Os comandos mais utilizados no Powershell são:
+
+1. **Get-Command:** Este comando permite listar todos os comandos disponíveis no PowerShell. Você pode filtrar os resultados para encontrar comandos específicos, como cmdlets, funções ou scripts.
+
+   Exemplo:
+   ```powershell
+   Get-Command
+   ```
+
+2. **Get-Help:** O comando Get-Help é usado para obter informações de ajuda sobre outros comandos. Você pode usar este comando para entender como um comando funciona, quais parâmetros ele aceita e exemplos de uso.
+
+   Exemplo:
+   ```powershell
+   Get-Help Get-Process
+   ```
+
+3. **Get-Service:** Este cmdlet permite listar os serviços em execução no sistema.
+
+   Exemplo:
+   ```powershell
+   Get-Service
+   ```
+
+4. **Get-Process:** O Get-Process é usado para listar todos os processos em execução no sistema.
+
+   Exemplo:
+   ```powershell
+   Get-Process
+   ```
+
+5. **Get-Item / Set-Item:** Esses comandos são usados para obter ou definir propriedades de itens do sistema de arquivos, como arquivos e pastas.
+
+   Exemplo:
+   ```powershell
+   Get-Item C:\Exemplo\Arquivo.txt
+   Set-Item C:\Exemplo\Arquivo.txt -ReadOnly $true
+   ```
+
+6. **Get-Content / Set-Content:** Esses cmdlets permitem ler e escrever o conteúdo de arquivos de texto.
+
+   Exemplo:
+   ```powershell
+   Get-Content arquivo.txt
+   Set-Content arquivo.txt "Novo conteúdo"
+   ```
+
+7. **New-Item:** Este cmdlet é usado para criar novos itens no sistema de arquivos, como arquivos ou pastas.
+
+   Exemplo:
+   ```powershell
+   New-Item -ItemType File -Path C:\Exemplo\NovoArquivo.txt
+   ```
+
+8. **Remove-Item:** O Remove-Item é usado para excluir itens do sistema de arquivos.
+
+   Exemplo:
+   ```powershell
+   Remove-Item C:\Exemplo\ArquivoParaExcluir.txt
+   ```
+
+
+
+### Variáveis (aula2.ps1)
 
 No **PowerShell**, as variáveis são representadas por cadeias de caracteres de texto que começam com um cifrão (`$`), como `$a`, `$process` ou `$my_var`. Os nomes de variáveis não diferenciam maiúsculas de minúsculas e podem incluir espaços e caracteres especiais. 
 
