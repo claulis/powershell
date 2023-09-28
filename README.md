@@ -64,5 +64,22 @@ Para programar em PowerShell no Visual Studio Code (VS Code), considerando que v
 
 > Certifique-se também de que as configurações de execução de scripts estão adequadas ao nível de segurança necessário no seu ambiente. Por padrão, o Windows pode bloquear a execução de scripts não assinados, dependendo das configurações de política de execução. Você pode usar o comando `Set-ExecutionPolicy` no PowerShell para ajustar essas configurações.
 
+## Programando em Powershell
+
+### Variáveis
+
+No **PowerShell**, as variáveis são representadas por cadeias de caracteres de texto que começam com um cifrão (`$`), como `$a`, `$process` ou `$my_var`. Os nomes de variáveis não diferenciam maiúsculas de minúsculas e podem incluir espaços e caracteres especiais. 
+
+Para criar uma nova variável, use uma instrução de atribuição para atribuir um valor à variável. Você não precisa declarar a variável antes de usá-la. **O valor padrão de todas as variáveis é `$null`**. 
+
+Aqui estão alguns exemplos de como usar variáveis no PowerShell:
+
+1. **Criar uma variável**: Use o operador `=` para atribuir um valor a uma variável. Por exemplo, `$nome = "João"` cria uma variável chamada `$nome` e atribui o valor `"João"` a ela.
+2. **Acessar o valor de uma variável**: Use o nome da variável precedido por um cifrão (`$`) para acessar o valor armazenado nela. Por exemplo, `Write-Host $nome` exibirá o valor da variável `$nome` no console.
+3. **Modificar o valor de uma variável**: Atribua um novo valor à variável usando o operador `=`. Por exemplo, `$nome = "Maria"` altera o valor da variável `$nome` para `"Maria"`.
+4. **Remover uma variável**: Use o comando `Remove-Variable` seguido pelo nome da variável para removê-la. Por exemplo, `Remove-Variable -Name nome` remove a variável `$nome` do escopo atual.
+
+Para exemplos práticos ver o arquivo `aulas2.ps1`.
+
 
 
