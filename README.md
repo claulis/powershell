@@ -1,5 +1,8 @@
 # Powershell
 
+[![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=plastic&logo=visual-studio-code&logoColor=white)](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=plastic&logo=visual-studio-code&logoColor=white)
+[![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=plastic&logo=powershell&logoColor=white)](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=plastic&logo=powershell&logoColor=white)
+
 O **PowerShell** é uma solução de automação de tarefas **multiplataforma** que consiste em um shell de linha de comando, em uma **linguagem de script e uma estrutura de gerenciamento de configuração**. 
 
 Ele pode ser executado no Windows, Linux e macOS. 
